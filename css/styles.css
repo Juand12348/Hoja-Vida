@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    grid-template-columns: (2, 1fr);
+}
+#barra1{
+    background-color: #00b4d8;
+    grid-column: 1/2;
+    width: 500px;
+}
+.icono1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.icono2{
+    text-decoration: none;
+    color: white;
+}
+.caja{
+    margin-top: 100px;
+}
+.titulobarra1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#texto{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#barra2{
+    grid-column: 2/3;
+}
+#titulo{
+    text-align: center;
+    font-size: 25px;
+}
+#imagen{
+    height: 300px;
+    margin-top: 100px;
+}
+.contenedor{
+    margin-top: 100px;
+}
+.titulo3{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.lista{
+    margin-left: 50px;
+    font-size: 25px;
+}
