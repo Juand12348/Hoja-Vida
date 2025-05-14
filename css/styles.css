@@ -5,7 +5,7 @@ body{
 #barra1{
     background-color: #00b4d8;
     grid-column: 1/2;
-    width: 500px;
+    max-width: 300px;
 }
 .icono1{
     color: white;
@@ -25,7 +25,6 @@ body{
     font-size: 35px;
 }
 #texto{
-    text-align: center;
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -46,9 +45,22 @@ body{
 }
 .titulo3{
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
-.lista{
-    margin-left: 50px;
+@media (max-width: 768px){
+    .lista{
+    margin-left: 20px;
     font-size: 25px;
+    }
+}
+#boton{
+    text-align: center;
+}
+#cambiarColor{
+    padding: 20px;
+    background-color: white;
+}
+#cambiarColor:hover{
+    background-color: black;
+    color: white;
 }
